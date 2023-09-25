@@ -1,0 +1,31 @@
+.table.DataTBL-CenterV td, .table.DataTBL-CenterV th {
+    padding: .75rem;
+    vertical-align: middle !important;
+    border-top: 1px solid #dee2e6;
+}
+
+.DataTableRowOptionsGroup {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 100% !important;
+}
+
+table tbody tr>td>.btn{
+    margin: 4px;
+}
+
+@media screen and (max-width: 580px) {
+    .DataTableRowOptionsGroup {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dataTables_paginate .pagination{
+        flex-wrap: wrap;
+    }
+}

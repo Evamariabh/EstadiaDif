@@ -1,0 +1,9 @@
+:root {
+    --nav-height: 60px;
+    --primary-color: var(--system-theme-primary);
+    --secondary-color: var(--system-theme-secondary);
+    --btn-highlight-text-color: white;
+    --system-theme-bg-pane: rgb(221, 221, 221);
+    --system-theme-primary: rgb(14, 94, 120);
+    --system-theme-secondary: rgb(15, 59, 82);
+}
